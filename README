@@ -1,5 +1,8 @@
 A simple implementation of speck 128/128. It also includes CBC encryption and
 decryption. 
 
+The file test.c just runs a couple test vectors. Useful to make sure it's
+properly. It will test the functions to some expected output.
+
 Note: It does use the the compiler extension __int128. It's supported by both
 gcc and clang. Not sure about other compilers.
