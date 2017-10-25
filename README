@@ -1,0 +1,5 @@
+A simple implementation of speck 128/128. It also includes CBC encryption and
+decryption. 
+
+Note: It does use the the compiler extension __int128. It's supported by both
+gcc and clang. Not sure about other compilers.
